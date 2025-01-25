@@ -24,10 +24,6 @@ function backToTop() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
-AOS.init({
-  duration: 2000,  
-  once: true,      
-});
 
   //  pure counter
   new PureCounter();

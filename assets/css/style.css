@@ -1,4 +1,3 @@
-@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&display=swap");
 html {
   overflow-x: hidden;
@@ -494,6 +493,9 @@ body.arabicVersion .next {
   }
 }
 @media (min-width: 800px) {
+  .custom-section {
+    transform: rotate(-1deg);
+  }
   .nav-hover-link::after {
     content: "";
     height: 2px;
@@ -824,7 +826,6 @@ body.arabicVersion .next {
   border-radius: 15px;
   padding: 20px;
   background-color: #fff;
-  transform: rotate(-1deg);
   position: relative;
   margin: 20px 0;
   border-left: none;
@@ -861,6 +862,6 @@ body.arabicVersion .next {
 }
 
 .overlay-text {
-  color: white; /* أو أي لون مناسب */
-  padding: 10px; /* إضافة حشوة */
+  color: white;
+  padding: 10px;
 }

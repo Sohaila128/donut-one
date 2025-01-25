@@ -488,7 +488,9 @@ body.arabicVersion .next{
 
 }
 @media (min-width: 800px) {
-  
+  .custom-section {
+    transform: rotate(-1deg);
+  }
 .nav-hover-link{
   &::after {
     content: "";
@@ -818,7 +820,7 @@ $text-color: #fff;
   border-radius: 15px;
   padding: 20px;
   background-color: #fff;
-  transform: rotate(-1deg);
+  // transform: rotate(-1deg);
   position: relative;
   margin: 20px 0;
   border-left: none;
@@ -851,6 +853,6 @@ transform: translate(-50%, -50%);
 }
 
 .overlay-text {
-  color: white; /* أو أي لون مناسب */
-  padding: 10px; /* إضافة حشوة */
+  color: white; 
+  padding: 10px; 
 }
