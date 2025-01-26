@@ -145,6 +145,10 @@ html::-webkit-scrollbar-thumb {
   font-size: 14px !important;
 }
 
+.fs-12 {
+  font-size: 12px !important;
+}
+
 .navbar {
   transition: all 0.3s ease-in-out;
 }
@@ -852,6 +856,13 @@ body.arabicVersion .next {
   left: 50%;
   transform: translate(-50%, -50%);
   width: 300px;
+}
+
+.middle-image-two {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .middle-button {
